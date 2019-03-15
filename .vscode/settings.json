@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\117686\\.platformio\\penv\\Scripts;C:\\Users\\117686\\.platformio\\penv;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;E:\\Microsoft VS Code\\bin;D:\\Git\\cmd;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;E:\\Microsoft VS Code\\bin;D:\\Git\\cmd",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "files.associations": {
+        "stm32l4xx_hal.h": "c",
+        "stm32l4xx_hal_conf.h": "c"
+    }
+}
