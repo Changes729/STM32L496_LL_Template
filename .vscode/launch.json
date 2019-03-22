@@ -1,0 +1,25 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "name": "Cortex Debug",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceFolder}/.pioenvs/nucleo_l496zg_p/firmware.elf",
+            "servertype": "openocd",
+            "device": "STM32L496ZG",
+            "configFiles": [
+                "board/st_nucleo_l4.cfg"
+            ],
+            "runToMain": true
+        }
+    ]
+}

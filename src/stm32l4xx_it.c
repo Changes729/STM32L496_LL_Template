@@ -1,6 +1,6 @@
 /** 
   ******************************************************************************
-  * @file    Templates_LL/Src/stm32l4xx_it.c
+  * @file    Examples_LL/USART/USART_Communication_Rx_IT_Init/Src/stm32l4xx_it.c
   * @author  MCD Application Team
   * @brief   Main Interrupt Service Routines.
   *          This file provides template for all exceptions handler and
@@ -37,12 +37,13 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32l4xx_it.h"
+#include "driver_it.h"
 
 /** @addtogroup STM32L4xx_LL_Examples
   * @{
   */
 
-/** @addtogroup Templates_LL
+/** @addtogroup USART_Communication_Rx_IT_Init
   * @{
   */
 
@@ -74,7 +75,6 @@ void NMI_Handler(void)
   */
 void HardFault_Handler(void)
 {
-
   /* Go to infinite loop when Hard Fault exception occurs */
   while (1)
   {
@@ -158,21 +158,16 @@ void SysTick_Handler(void)
 
 /******************************************************************************/
 /*                 STM32L4xx Peripherals Interrupt Handlers                   */
-/*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */
+/*  Add here the Interrupt Handler for the used peripheral(s), for the        */
 /*  available peripheral interrupt handler's name please refer to the startup */
 /*  file (startup_stm32l4xx.s).                                               */
 /******************************************************************************/
 
 /**
-  * @brief  This function handles PPP interrupt request.
+  * @brief  This function handles external lines 10 to 15 interrupt request.
   * @param  None
   * @retval None
   */
-/*void PPP_IRQHandler(void)
-{
-}*/
-
-
 /**
   * @}
   */
